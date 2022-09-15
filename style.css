@@ -330,7 +330,7 @@ nav ul li a:hover{
 .bottomlinks{
     position: relative;
     top: 1450px;
-    right: 475px;
+    right: 500px;
     display: flex;
 }
 .child{
@@ -338,13 +338,13 @@ nav ul li a:hover{
    width: 50%;
    padding: 10px;
    flex: 33.33%;
-  padding: 5px; 
+    padding: 5px; 
 }
 
 h3{
     position: absolute;
     top: 85px;
     size: 100px;
-    color: #fff;
+    color: #00bcd4;
     padding: 35px 180px;
 }
