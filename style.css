@@ -255,18 +255,6 @@ nav ul li a:hover{
 
 }
 
-.box:nth-child(2):before
-.box:nth-child(2):after
-{
-    background: linear-gradient(235deg,#89ff00,#010615,#346100);  
-}
-
-.box:nth-child(3):before
-.box:nth-child(3):after
-{
-    background: linear-gradient(235deg,#004750,#010615,#00bcd4);
-}
-
 .box .content{
     position: absolute;
     bottom: 0;
