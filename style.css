@@ -38,7 +38,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #4181d6;
+    color: #59DAF6;
 }
 
 
@@ -76,7 +76,7 @@ nav ul li a:hover{
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
-    background: -webkit-linear-gradient( rgb(127, 222, 235), rgb(65, 129, 214));
+    background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -98,9 +98,10 @@ nav ul li a:hover{
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
-    background: -webkit-linear-gradient( rgb(135, 238, 161), rgb(2, 167, 51));
+    background: -webkit-linear-gradient( rgb(191, 240, 86), rgb(82, 104, 36));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 /* section 3 */
@@ -121,9 +122,10 @@ nav ul li a:hover{
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
-    background: -webkit-linear-gradient( rgb(127, 222, 235), rgb(65, 129, 214));
+    background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 /* Img Slider */
@@ -172,7 +174,7 @@ nav ul li a:hover{
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
-    background: -webkit-linear-gradient( rgb(135, 238, 161), rgb(2, 167, 51));
+    background: -webkit-linear-gradient( rgb(191, 240, 86), rgb(82, 104, 36));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -310,7 +312,7 @@ nav ul li a:hover{
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
-    background: -webkit-linear-gradient( rgb(127, 222, 235), rgb(65, 129, 214));
+    background-color: #59DAF6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -333,6 +335,6 @@ h3{
     position: absolute;
     top: 85px;
     size: 100px;
-    color: #00bcd4;
+    color: #59DAF6;
     padding: 35px 180px;
 }
