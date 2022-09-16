@@ -377,7 +377,7 @@ h3{
    .third{
     width: 700px;
     position: relative;
-    left: -915px;
+    right: 200px;
     background: #fff;
     opacity: 25%;
   }
@@ -407,7 +407,7 @@ h3{
    .fifth{
     width: 700px;
     position: relative;
-    left: -915px;
+    right: 200px;
     background: #fff;
     opacity: 25%;
   }
@@ -419,58 +419,20 @@ h3{
     color: #59DAF6;
    }
 
+   .slidercontainer{
+    position: relative;
+    left: -1000px;
+    top: 0px;
+    opacity: 25%;
+   }
+
    .DAO{
     font-size: 20px;
     left: 100px;
    }
-}
 
-.team{
+   .team{
     position: absolute;
     left: -200px;
 }
-
-
-
-
-    .main_articles {
-        width: 95%;
-        float: left;
-        height: auto;
-        margin:auto;
-    }
-
-    .side_article {
-        display: none;
-        visibility: hidden;
-    }
-
-    .siteDescription {
-        width: 95%;
-        height: auto;
-        display: block;
-        margin:auto;
-    }
-
-    .desImage {
-        margin: auto;
-        width: 100%;
-        height: auto;
-    }
-
-        .desImage img {
-            width: 100%;
-            height: 100%;
-            margin-left: 5px;
-            border: 2px solid #6d6d6d;
-        }
-
-    .des {
-        margin: auto;
-        margin-top: 10px;
-        width: 100%;
-        height: 300px;
-        background-color: #d9d9d9;
-        padding: 5px;
-    }
-}
+}    
