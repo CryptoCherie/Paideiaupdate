@@ -36,7 +36,7 @@
     
 
 </nav>
-
+<img src="images/menu.png" class="menu-icon" onclick="togglemenu ()">
 
     <!-- Main Page --> 
     <div class="mainpage">
@@ -162,12 +162,12 @@ clickable: true,
 <!-- Section 4 -->
 
 <div class="section4">
-
+  
   <video autoplay loop muted>
-    <source src="images/TokenRewards.mp4" type="video/mp4"></video>
+    <source src="images/TokenRewardsV2.mp4" type="video/mp4"></video>
 
   <h1 class="section4description">
-      
+  
     $DEIA
     <br>
     <br> The token will be used for such things as
@@ -184,7 +184,7 @@ clickable: true,
 
   </h1>
 
-</div>
+  </div>
 
 
 <!-- Newsletter -->
@@ -246,6 +246,25 @@ clickable: true,
       <h3>Support | Media | Contact</h3>
 </div>
   
+  <!-- JAVA FOR MOBILE --> 
+  <script>
+
+    var menuList = document.getElementById("menuList");
+    
+    menuList.style.maxHeight = "0px"
+
+    function togglemenu(){
+       if(menuList.style.maxHeight == "0px")
+
+       {
+           menuList.style.maxHeight = "330px";
+       }
+       else{
+           menuList.style.maxHeight = "0px";
+       }
+    }
+  
+   </script>
 
 </body>
 </html>
