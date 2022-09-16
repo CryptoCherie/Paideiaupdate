@@ -348,6 +348,7 @@ h3{
         width: 90%;
         min-width: 480px;
         margin: auto;
+        overflow: hidden;
     }
     
     .nav u li{
@@ -357,6 +358,7 @@ h3{
     
   .first{
     width: 100%;
+    overflow: hidden;
   }
 
   .second{
@@ -365,6 +367,7 @@ h3{
     left: -915px;
     background: #fff;
     opacity: 25%;
+    overflow: hidden;
   }
 
    .section1description{
@@ -380,6 +383,7 @@ h3{
     right: 200px;
     background: #fff;
     opacity: 25%;
+    overflow: hidden;
   }
 
    .section2description{
@@ -395,6 +399,7 @@ h3{
     left: -915px;
     background: #fff;
     opacity: 25%;
+    overflow: hidden;
   }
 
    .section3description{
@@ -410,6 +415,7 @@ h3{
     right: 200px;
     background: #fff;
     opacity: 25%;
+    overflow: hidden;
   }
 
    .section4description{
@@ -424,15 +430,18 @@ h3{
     left: -1000px;
     top: 0px;
     opacity: 25%;
+    overflow: hidden;
    }
 
    .DAO{
     font-size: 20px;
     left: 100px;
+    overflow: hidden;
    }
 
    .team{
     position: absolute;
     left: -200px;
+    overflow: hidden;
 }
 }    
