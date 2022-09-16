@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Paideia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
@@ -36,11 +36,14 @@
     
 
 </nav>
-<img src="images/menu.png" class="menu-icon" onclick="togglemenu ()">
+
 
     <!-- Main Page --> 
     <div class="mainpage">
-      <img src="images/mainpage.jpg">
+      <img src="images/mainpage.jpg" class="first">
+      
+
+      
   </div>
 
   
@@ -68,7 +71,7 @@
 
   <!-- Section 2 --> 
   <div class="section2">
-    <img src="images/Governance.jpg">
+    <img src="images/GovernToEarnTest.mp4">
     <h1 class="section2description">
 
               GovernToEarn
@@ -246,25 +249,7 @@ clickable: true,
       <h3>Support | Media | Contact</h3>
 </div>
   
-  <!-- JAVA FOR MOBILE --> 
-  <script>
 
-    var menuList = document.getElementById("menuList");
-    
-    menuList.style.maxHeight = "0px"
-
-    function togglemenu(){
-       if(menuList.style.maxHeight == "0px")
-
-       {
-           menuList.style.maxHeight = "330px";
-       }
-       else{
-           menuList.style.maxHeight = "0px";
-       }
-    }
-  
-   </script>
 
 </body>
 </html>
