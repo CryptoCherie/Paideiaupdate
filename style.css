@@ -360,6 +360,7 @@ h3{
   }
 
   .second{
+    width: 700px;
     position: relative;
     left: -915px;
     background: #fff;
@@ -374,6 +375,7 @@ h3{
    }
 
    .third{
+    width: 700px;
     position: relative;
     left: -915px;
     background: #fff;
@@ -388,6 +390,7 @@ h3{
    }
 
    .fourth{
+    width: 700px;
     position: relative;
     left: -915px;
     background: #fff;
@@ -402,6 +405,7 @@ h3{
    }
 
    .fifth{
+    width: 700px;
     position: relative;
     left: -915px;
     background: #fff;
