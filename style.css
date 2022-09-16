@@ -343,25 +343,130 @@ h3{
 }
 
 @media only screen and (max-device-width: 700px) {
+  
+    .Container {
+        width: 90%;
+        min-width: 480px;
+        margin: auto;
+    }
     
+    .nav u li{
+        display: inline-block;
+    }
+
     
   .first{
-    display: none;
+    width: 100%;
   }
 
-    
+  .second{
+    position: relative;
+    left: -915px;
+    background: #fff;
+    opacity: 25%;
+  }
 
    .section1description{
-    font-size: 16px;
-    
+    font-size: 20px;
+    left: 150px;
+    top: 75px;
+    color: #59DAF6;
    }
 
-   .section2{
-    width: auto;
-    height: 100vh;
-   }
+   .third{
+    position: relative;
+    left: -915px;
+    background: #fff;
+    opacity: 25%;
+  }
 
    .section2description{
-    font-size: 36px;
+    font-size: 20px;
+    left: 150px;
+    top: 75px;
+    color: #59DAF6;
    }
+
+   .fourth{
+    position: relative;
+    left: -915px;
+    background: #fff;
+    opacity: 25%;
+  }
+
+   .section3description{
+    font-size: 20px;
+    left: 150px;
+    top: 75px;
+    color: #59DAF6;
+   }
+
+   .fifth{
+    position: relative;
+    left: -915px;
+    background: #fff;
+    opacity: 25%;
+  }
+
+   .section4description{
+    font-size: 20px;
+    left: 150px;
+    top: 75px;
+    color: #59DAF6;
+   }
+
+   .DAO{
+    font-size: 20px;
+    left: 100px;
+   }
+}
+
+.team{
+    position: absolute;
+    left: -200px;
+}
+
+
+
+
+    .main_articles {
+        width: 95%;
+        float: left;
+        height: auto;
+        margin:auto;
+    }
+
+    .side_article {
+        display: none;
+        visibility: hidden;
+    }
+
+    .siteDescription {
+        width: 95%;
+        height: auto;
+        display: block;
+        margin:auto;
+    }
+
+    .desImage {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+        .desImage img {
+            width: 100%;
+            height: 100%;
+            margin-left: 5px;
+            border: 2px solid #6d6d6d;
+        }
+
+    .des {
+        margin: auto;
+        margin-top: 10px;
+        width: 100%;
+        height: 300px;
+        background-color: #d9d9d9;
+        padding: 5px;
+    }
 }
