@@ -343,6 +343,14 @@ h3{
 }
 
 @media only screen and (max-device-width: 700px) {
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    body{
+        position: relative;
+    }
   
     .Container {
         width: 90%;
