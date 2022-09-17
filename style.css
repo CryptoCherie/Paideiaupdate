@@ -352,9 +352,24 @@ h3{
        max-width: 100% !important;
        overflow-x: hidden !important;
     }
-    
-    .nav u li{
-        display: inline-block;
+
+    nav ul{
+        width: 100%;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        left: 200px;
+        z-index: 2;
+    }
+
+    nav ul li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+        font-size: 15px
     }
 
     
