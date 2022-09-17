@@ -368,9 +368,25 @@ h3{
     overflow: hidden;
   }
 
-  .section1{
-    display: none;
+
+  
+  .second{
+    width: 700px;
+    position: relative;
+    left: -915px;
+    background: #fff;
+    opacity: 25%;
+    overflow: hidden;
   }
+
+   .section1description{
+    font-size: 20px;
+    left: 150px;
+    top: 75px;
+    color: #59DAF6;
+   }
+
+
 
   .section2{
      display: none;
