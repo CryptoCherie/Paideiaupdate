@@ -363,5 +363,36 @@ h3{
     overflow: hidden;
   }
 
+  .section1{
+    display: none;
+  }
 
+  .section2{
+     display: none;
+
+  }
+
+  .section3{
+    display: none;
+  }
+
+  .slidecontainer{
+    display: none;
+  }
+
+  .section4{
+    display: none;
+  }
+
+  .bottompage{
+    display: none;
+  }
+
+  .team{
+    display: none;
+  }
+
+  .bottomlinks{
+    display: none;
+  }
 }    
