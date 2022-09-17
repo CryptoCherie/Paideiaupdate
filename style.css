@@ -370,8 +370,9 @@ h3{
 
   
   .second{
-    width: auto;
+    width: 700px;
     position: relative;
+    right: 915px;
     background: #fff;
     opacity: 25%;
   }
