@@ -353,24 +353,14 @@ h3{
        overflow-x: hidden !important;
     }
 
-    nav ul{
-        width: 100%;
-        position: absolute;
-        top: 15px;
-        right: 0;
-        left: 200px;
-        z-index: 2;
+    .logo{
+        width: 185px;
+        height: 185px;
     }
 
-    nav ul li{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a{
-        color: #fff;
-        font-size: 15px
-    }
+   #menuList{
+    display: none;
+   }
 
     
   .first{
