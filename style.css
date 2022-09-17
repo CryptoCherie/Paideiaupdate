@@ -344,19 +344,13 @@ h3{
 
 @media only screen and (max-device-width: 700px) {
 
-    html, body{
-        overflow-x: hidden;
-    }
-
     body{
-        position: relative;
+        overflow-x: hidden !important;
     }
   
     .Container {
-        width: 90%;
-        min-width: 480px;
-        margin: auto;
-        overflow: hidden;
+       max-width: 100% !important;
+       overflow-x: hidden !important;
     }
     
     .nav u li{
