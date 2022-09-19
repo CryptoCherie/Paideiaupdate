@@ -22,6 +22,9 @@ nav{
     width: 200px;
     margin: -80px 0;
 }
+.menu-icon{
+   display: none;
+}
 
 nav ul li{
     display: inline-block;
@@ -344,24 +347,49 @@ h3{
 
 @media only screen and (max-device-width: 700px) {
 
-    body{
-        overflow-x: hidden !important;
-    }
-  
-    .Container {
-       max-width: 100% !important;
-       overflow-x: hidden !important;
-    }
-
     .logo{
         width: 185px;
         height: 185px;
     }
 
-   #menuList{
-    display: none;
-   }
+  
+    nav ul{
+        width: 100%;
+        background: black;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+    }
 
+    nav ul li{
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    nav ul li a{
+        color: #fff;
+        padding: 0 0px;
+        font-size: 16px;
+        overflow: hidden;
+    }
+
+
+    .menu-icon{
+        position: relative;
+        left: 600px;
+        width: auto;
+        display: block;
+        overflow: hidden;
+        
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.7s;
+    }
     
   .first{
     width: 100%;
@@ -402,13 +430,16 @@ h3{
     background: #fff;
     opacity: 25%;
     overflow: hidden;
+    padding: 0 0;
   }
 
   .section2description{
-    max-width: 100%;
+    position: absolute;
+    max-width: 2500%;
     font-size: 20px;
-    left: 150px;
+    left: 250px;
     color: #59DAF6;
+    padding: 0 0;
    }
 
 
