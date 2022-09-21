@@ -5,6 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: url('images/Paideia_Face_Of_God.jpg'),  black;
     background-repeat: no-repeat;
+    background: cover;
     
 }
 
