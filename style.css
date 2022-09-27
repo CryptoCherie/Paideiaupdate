@@ -1,41 +1,104 @@
-*{
-    margin: 0;
+/* Body */
+.body{
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url('images/Paideia_Face_Of_God.jpg'),  black;
-    background-repeat: no-repeat;
-    background: cover;
-    
+    margin: 0;
+    justify-content: center;
+    background-color: black;
 }
-
 
 /* Nav */
-
 nav{
-    padding: 10px 0;
+    background-color: transparent;
+}
+
+.navbarContainer{
+    position: absolute;
+    top:0; right:0; bottom:0; left:0;
+    width: auto;
+    max-height: fit-content;
+    background-color: transparent;
+   /* border: 1px solid purple; */
     display: flex;
-    align-items: center;
+}
+
+/* https://freshman.tech/flexbox-navbar/ */
+.navbar {
+    display: flex;
     justify-content: space-between;
-    background: none;
+    align-items: center;
+}
+
+.nav-links {
+display: flex;
+
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    margin: 0 40px;
     
 }
 
+.logoContainer
+{
+    display: flex;
+    flex: 0.2;
+    background-color: transparent;
+    min-width: 15%;
+}
 
 .logo{
-    width: 200px;
-    margin: -80px 0;
-    background: none;
+    max-width:100%;
+    height:auto;
+    max-height: fit-content;
+    background-color: transparent;
+
+    
 }
+
+.navbarSpacer
+{
+    flex: 0.27;
+    background-color: transparent;
+    /* border: 1px solid grey; */
+}
+
+.menuContainer{
+    flex: 0.3;
+    width: 100px;
+    margin: 10px;
+    /* justify-content: right; */
+    background-color: transparent;
+    /* border: 1px solid grey; */
+}
+
+.menu{
+    background-color: transparent;
+}
+
 .menu-icon{
    display: none;
+   /* border: 1px solid rebeccapurple;*/
+}
+
+.navItem{
+    background-color: transparent;
 }
 
 nav ul li{
-    display: inline-block;
+    display: block;
     list-style: none;
-    margin: 10px 35px;
-    background: none;
+    margin-inline: 2px;
+   
+    /* float: right; */
+    /* padding-right: 5%; */
 }
 
 nav ul li a{
@@ -43,7 +106,7 @@ nav ul li a{
     color: white;
     font-weight: 100;
     font-size: 22px;
-    
+    /* border: 1px solid rebeccapurple;*/
 
 }
 
@@ -56,42 +119,115 @@ nav ul li a:hover{
 
 .discord{
     padding: 0 15px;
-    background: none;
+    background-color: transparent;
+    border: 1px solid rebeccapurple;
 }
 .twitter{
     padding: 0 15px;
-    background: none;
+    background-color: transparent;
+    border: 1px solid rebeccapurple;
 }
 .notion{
     padding: 0 15px;
-    background: none;
+    background-color: transparent;
+    border: 1px solid rebeccapurple;
 }
 
 /* main page */
-.mainpage{
-    overflow: hidden;
+.heroImage{
+    width:auto;
+    /* padding:20px; */
+    border: 1px solid yellow;
 }
 
+.mainpage{
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 1px solid yellow;
+}
 
+.first{
+    max-width:100%;
+    height:auto;
+}
 
 .first2{
-    display: none;
+    max-width:100%;
+    height:auto;
 }
 
-/* section 1 */
+/* Main */
 
+/* section 1 */
 .section1{
-    position: relative;
-    top: 1200px;
-    padding: 0 900px;
-    overflow: hidden; 
-    background: none;
+    display: flex;
+}
+
+.section2temp{
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 1px solid yellow;
+}
+
+.sectionLDisc{
+    /* justify-content: center; */
+
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sectionRVideo{
+    float: left;
+    max-width:100%;
+    height:auto;
+}
+
+.sectionLVideo{
+    float: right;
+    max-width:100%;
+    height:auto;
+}
+
+.sectionTitle{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    
+    font-size: large;
+    text-size-adjust: 30px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.sectionBaseText{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    text-size-adjust: 20px;
+    color: white;
+    
 }
 
 .section1description{
-    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* position: absolute;
     top: 0px;
-    left: 200px;
+    left: 200px; */
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
@@ -104,10 +240,9 @@ nav ul li a:hover{
 
 .section2{
     position: relative;
-    top: 1400px;
+    top: 500px;
     padding: 0 200px;
     overflow: hidden;
-    background: none;
     
 }
 
@@ -129,11 +264,12 @@ nav ul li a:hover{
 .section3{
     position: relative;
     overflow: hidden;
-    top: 1600px;
+    top: 750px;
     padding: 0 900px;
-    background: none;   
+    
+    
+    
 }
-
 .section3description{
     position: absolute;
     top: 0px;
@@ -171,103 +307,18 @@ nav ul li a:hover{
 .swiper-slide img{
     width: 375px;
     overflow: hidden;
-    background: none;
-}
-
-/* button
-
-.center{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.outer{
-    position: relative;
-    margin: 0 50px;
-    background: #111;
-}
-
-.button{
-    height: 70px;
-    width: 220px;
-    border-radius: 50px;
-    color: white;
-}
-
-.outer .button, .outer span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.outer .button{
-    background: #111;
-    color: #f2f2f2;
-    outline: none;
-    border: none;
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.button button{
-    height: 60px;
-    width: 210px;
-    border-radius: 50px;
-}
-
-.outer span{
-  height: 100%;
-  width: 100%; 
-  background: inherit; 
-}
-
-.button span{
-  border-radius: 50px;  
-}
-
-.outer span:nth-child(1){
-    filter: blur(7px);
-}
-
-.outer span:nth-child(2){
-    filter: blur(14px);
-}
-
-.outer:hover{
-    background: linear-gradient(#004750,#010615,#00bcd4);
-    animation: rotate 1.5s linear infinite;
-}
-
-@keyframes rotate {
-    0%{
-        filter: hue-rotate(0deg);
-    }
-    100%{
-        filter: hue-rotate(360deg);
-    }
 }
 
 
-.outer{
-    animation: rotate 1.5s linear infinite;
-}
-
-*/
 
 
 /* section 4 */
 
 .section4{
     position: relative;
-    top: 1450px;
+    top: 650px;
     padding: 0 200px;
     overflow: hidden;
-    background: none;
     
 }
 
@@ -288,7 +339,7 @@ nav ul li a:hover{
 
 .team{
  opacity: 0.99; 
- 
+  
 }
 
 .box{
@@ -302,14 +353,13 @@ nav ul li a:hover{
     transition: 0.5s;
     float: left;
     left: 375px;
-    top: 1800px;
-    
+    top: 900px;
     
 }
 
 .box:hover{
  height: 400px;
- 
+
 }
 
 .box .imgbox{
@@ -320,19 +370,16 @@ nav ul li a:hover{
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
-    
 }
 
 .box .imgbox img{
     max-width: 100%;
     opacity: 0.1;
     transition: 0.5s;
-    
 }
 
 .box:hover .imgbox img{
     opacity: 1;
-   
 }
 
 .box:before{
@@ -344,7 +391,6 @@ nav ul li a:hover{
     bottom: -2px;
     background-color: #fff;
     z-index: -1;
-   
 }
 
 .box:after{
@@ -357,14 +403,12 @@ nav ul li a:hover{
     background-color: #fff;
     z-index: -2;
     filter: blur(40px);
-    
 }
 
 .box:before,
 .box:after
 {
     background: linear-gradient(235deg,#004750,#010615,#00bcd4);
-    
 
 }
 
@@ -382,13 +426,11 @@ nav ul li a:hover{
     text-align: center;
     opacity: 0;
     transition: 0.5s; 
-    
 }
 
 .box:hover .content
 {
     opacity: 1;
-    
 }
 
 .box .content h2{
@@ -397,33 +439,26 @@ nav ul li a:hover{
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 1px;
-   
 }
 
 .box .content h2 span{
     font-size: 14px;
     color: #fff;
     font-weight: 200;
-    letter-spacing: 2px;
-      
+    letter-spacing: 2px;  
 }
 
 
 /* Newsletter */
 .bottompage{
     position: relative;
-    top: 1800px;
+    top: 900px;
     left: 0px;
     text-size-adjust: 80px;
     color: whitesmoke;
     padding-left: 25px;
     overflow: hidden;
-    background: none;
 
-}
-
-.bottomlogo{
-    background: none;
 }
 
 .DAO{
@@ -435,27 +470,20 @@ nav ul li a:hover{
     background-color: #59DAF6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: none;
-}
-
-.bottompage a{
-    background: none;
 }
 
 .bottomlinks{
     position: relative;
-    top: 2400px;
+    top: 1450px;
     right: 500px;
     display: flex;
-    background: none;
 }
 .bottomimg{
    margin: auto;
    width: 50%;
    padding: 10px;
    flex: 33.33%;
-    padding: 5px;
-    background: none; 
+    padding: 5px; 
 }
 
 h3{
@@ -464,10 +492,9 @@ h3{
     size: 100px;
     color: #59DAF6;
     padding: 35px 180px;
-    background: none;
 }
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 750px) {
 
     .logo{
         width: 185px;
@@ -503,7 +530,6 @@ h3{
     .menu-icon{
         position: relative;
         left: 600px;
-        bottom: 15px;
         width: auto;
         display: block;
         overflow: hidden;
@@ -511,7 +537,7 @@ h3{
     }
     #menuList{
         overflow: hidden;
-        transition: 0.5s;
+        transition: 0.7s;
     }
     
   .first{
@@ -589,4 +615,4 @@ h3{
   .bottomlinks{
     display: none;
   }
-}    
+} 

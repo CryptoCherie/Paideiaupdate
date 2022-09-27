@@ -8,92 +8,82 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
-<body>
-  <div class="container">
-    
-  <nav>
-    
-      
-    <!-- Logo --> 
-    <img src="images/Paideia Logo.png" class="logo">
-    
+<body class="body">
 
-    <!-- Navigation --> 
-    <ul id="menuList">
-        <li><a href="#">Mint</a></li>
-        <li><a href="#">Demo</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Community</a></li>
-        
-    </ul>
-
-    <!-- Socials --> 
-    <div id="menuList">
-        <a href="#"><img src="images/icons8-discord-35.png" class="discord"></a>
-        <a href="#"><img src="images/icons8-twitter-35.png" class="twitter"></a>
-        <a href="#"><img src="images/icons8-notion-35.png"  class="notion"></a> 
-    </div>
-
-    
-
-</nav>
 
 <img src="images/menu.png" class="menu-icon" onclick="togglemenu ()">
 
+
+
     <!-- Main Page --> 
     <div class="mainpage">
+
       
-          
-  </div>
+
+      <div class="navbarContainer">
+
+        <div class="logoContainer">
+          <img src="images/Paideia Logo.png" class="logo">
+        </div>
+
+        <div class="navbarSpacer"></div>
+
+        <ul id="menuList" class="nav-links">
+          <li class="nav-item"><a href="#">Mint</a></li>
+          <li class="nav-item"><a href="#">Demo</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Community</a></li>
+        </ul>
+        
+        
+        <!-- 
+      
+          <div id="menuList">
+              <a href="#"><img src="images/icons8-discord-35.png" class="discord"></a>
+              <a href="#"><img src="images/icons8-twitter-35.png" class="twitter"></a>
+              <a href="#"><img src="images/icons8-notion-35.png"  class="notion"></a> 
+          </div>
+      
+        </nav> -->
+      </div>
+
+      <img src="images/mainpage.jpg" class="first">
+
+    </div>
 
   
     <!-- Section 1 --> 
     <div class="section1">
-      <video autoplay loop muted class="second">
-        <source src="images/FactionWarTest.mp4" type="video/mp4"></video>
-      <h1 class="section1description">
 
-               PETRA VS MER
-          <br>
-          <br> There is a war growing in Paideia.
-          <br>
-          <br> Work together with fellow players
-          <br> 
-          <br> by establishing dominance over nodes that
-          <br> 
-          <br> provide resources to the city and senate.
-          <br> 
-          <br> Stake your NFT's to hold control over the
-          <br> 
-          <br> nodes while the opposite faction battles to
-          <br>
-          <br> obtain ownership</h1>
-  </div>
+      <div class="flex-child">
+          <p class="sectionTitle"> PETRA VS MER </p>
+          <p class="sectionBaseText"> is a war growing in Paideia. Work together with fellow players by establishing dominance over nodes that provide resources to the city and senate. 
+          Stake your NFT's to hold control over the nodes while the opposite faction battles to obtain ownership</p>
+      </div>
+      
+      <div class="flex-child">
+        <video autoplay loop muted class="sectionRVideo">
+          <source src="images/FactionWarTest.mp4" type="video/mp4"></video>
+      </div>
 
-  <!-- Section 2 --> 
-  <div class="section2">
-    <video autoplay loop muted class="third">
-      <source src="images/GovernToEarnTest.mp4" type="video/mp4"></video>
-    <h1 class="section2description">
+    </div>
 
-              GovernToEarn
-        <br>
-        <br> Your opinion matters and you can leverage it
-        <br>
-        <br> With the introduction of a DAO structure
-        <br> 
-        <br> in game, you can submit votes on chain
-        <br> 
-        <br> that affect gameplay outcomes and
-        <br> 
-        <br> resources. By playing the game and being 
-        <br> 
-        <br> apart of the senate you can earn our 
-        <br>
-        <br>
-            native token $DEIA
-       </h1>
-</div>
+
+    <!-- Section 2 --> 
+    <div class="section2temp">
+
+      <div class="flex-child">
+        <video autoplay loop muted class="sectionLVideo">
+          <source src="images/GovernToEarnTest.mp4" type="video/mp4"></video>
+      </div>
+
+      <div class="flex-child">
+        <p class="sectionTitle"> GovernToEarn </p>
+        <p class="sectionBaseText"> Your opinion matters and you can leverage it With the introduction of a DAO structure in game, you can submit votes on chain that affect gameplay outcomes and resources. By playing the game and being apart of the senate you can earn our native token $DEIA</p>
+    </div>
+
+    </div>
+
 
 <!-- Section 3 --> 
 <div class="section3">
@@ -161,20 +151,6 @@ clickable: true,
 
 });
 </script> 
-
-
-<!-- Buttons for section 3
-<div class="center">
-  <div class="outer button">
-    <button>Mint</button>
-    <span></span> 
-    <span></span> 
-  </div>
-</div>
-
--->
-
-
 
 </div>
 
@@ -264,11 +240,8 @@ clickable: true,
       </div>
       <h3>Support | Media | Contact</h3>
 </div>
-  
 
-</div>
-
-<!-- JAVA mobile --> 
+<!-- JAVA --> 
 <script>
 
   var menuList = document.getElementById("menuList");
