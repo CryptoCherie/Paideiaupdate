@@ -167,6 +167,7 @@ nav ul li a:hover{
 }
 
 .section3{
+    position: relative;
     display: flex;
     border: 1px solid yellow;
 }
@@ -220,30 +221,33 @@ nav ul li a:hover{
     
 }
 
-/* Img Slider 
+/* Img Slider
 
 .slidecontainer{
-    width: 375px;
-    height: 375px;
     display: flex;
-    overflow: hidden;
+    border: 1px solid yellow;
     
     
 }
 
 .swiper{
     position: absolute;
-    top: -450px;
-    left: 275px;
-    width: 375px;
-    overflow: hidden;
-    
+    display: flex;
+    top: -250px;
+    margin: 30px 0;
+    width: 275px;
+    border: 1px solid yellow;
 
 }
 
 .swiper-slide img{
-    width: 375px;
-    overflow: hidden;
+    display: flex;
+    margin: 30px 0;
+    max-width:100%;
+    height:auto;
+    max-height: fit-content;
+    background-color: transparent;
+    border: 1px solid grey;
 }
 
 */
@@ -365,27 +369,29 @@ nav ul li a:hover{
 
 
 /* Newsletter */
-.bottompage{
-    position: relative;
-    top: 900px;
-    left: 0px;
-    text-size-adjust: 80px;
-    color: whitesmoke;
-    padding-left: 25px;
-    overflow: hidden;
 
-}
 
 .DAO{
-    position: absolute;
-    left: 300px;
-    text-size-adjust: 80px;
-    color: whitesmoke;
-    padding-left: 25px;
-    background-color: #59DAF6;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 10%;
+    text-size-adjust: 26px;
+    color: white;
+    color: #59DAF6;
 }
+
+.bottomlogo{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 2%;
+    max-width:50%;
+    height:auto;
+}
+
+
+
 
 .bottomlinks{
     position: relative;
