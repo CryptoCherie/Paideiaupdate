@@ -171,7 +171,6 @@ nav ul li a:hover{
 }
 
 .section3{
-    position: relative;
     display: flex;
     margin-top: 10%;
 }
@@ -203,9 +202,9 @@ nav ul li a:hover{
 
 .sectionTitle{
     
-    margin-left: 45%;
-    margin-right: 10%;
-    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
     font-size: large;
     font-size: 32px;
     color: whitesmoke;
@@ -217,37 +216,16 @@ nav ul li a:hover{
 
 .sectionBaseText{
     display: flex;
-    margin-left: 45%;
-    margin-right: 10%;
-    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
     text-size-adjust: 20px;
     color: white;
     
 }
 
-.sectionTitleR{
-    
-    margin-left: 15%;
-    margin-right: 35%;
-    margin-top: 7%;
-    font-size: large;
-    font-size: 32px;
-    color: whitesmoke;
-    background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-}
 
-.sectionBaseTextR{
-    display: flex;
-    margin-left: 15%;
-    margin-right: 35%;
-    margin-top: 8%;
-    text-size-adjust: 20px;
-    color: white;
-    
-}
+
 
 /* Img Slider
 
@@ -297,9 +275,7 @@ nav ul li a:hover{
 
 .Paragraph{
     color: #59DAF6;
-   
-    font-size: large;
-    font-size: 32px;
+    font-size: 24px;
     margin-left: 18%;
     margin-right: 15%;
     margin-top: 8%;
@@ -337,6 +313,7 @@ nav ul li a:hover{
 .bottomimg img{
     max-width: 100px;
     height: 100px;
+    display: flex;
 }
 
 h3{
@@ -345,6 +322,7 @@ h3{
     margin-right: 25%;
     margin-top: 2%;
     color: #59DAF6;
+    font-size: 16px;
     
 }
 
@@ -498,11 +476,15 @@ h3{
     margin-top: 2%;
    }
 
-@media only screen and (max-device-width: 750px) {
+@media only screen and (max-device-width: 800px) {
 
     .logo{
-        width: 185px;
-        height: 185px;
+    margin-left: 2%;
+    margin-top: -30%;
+    max-width:100%;
+    height:auto;
+    max-height: fit-content;
+    background-color: transparent;
     }
 
   
@@ -533,90 +515,89 @@ h3{
 
     .menu-icon{
         position: relative;
-        left: 600px;
         width: auto;
-        display: block;
+        display: flex;
         overflow: hidden;
+        margin-left: 85%;
         
     }
     #menuList{
+        display: flex;
         overflow: hidden;
         transition: 0.7s;
     }
     
-  .first{
-    width: 100%;
-    overflow: hidden;
-  }
+ .sectionTitle{
+    font-size: 18px;
+    margin-top: 30%;
+    margin-right: 0%;
+    margin-left: 5%;
+}
 
+
+ 
+.sectionBaseText{
+   font-size: 12px;
+   margin-bottom: 100%;
+   margin-right: 0%;
+   margin-left: 5%;
+   margin-top: 5%;
+}
+
+.sectionRVideo{
+   max-width:100%;
+   height:auto;
+   margin-top: 30%;
+}
+
+.sectionLVideo{
+    max-width:100%;
+    height:auto;
+    margin-top: 30%;
+ }
+
+
+ .section1{
+    display: flex;
   
-  .section1{
+}
+
+.section2temp{
+    display: flex;
+    margin-top: -20%;
+}
+
+.section3{
+    display: flex;
+    margin-top: -20%;
+}
+
+.section4{
+    display: flex;
+    margin-top: -20%;
+}
+
+.moss{
+    display: flex;
+    margin-top: -30%;
+}
+
+.Paragraph{
+    display: flex;
+    font-size: 12px;
+}
+
+.bottomimg img{
     display: none;
-  }
+}
 
-  .second{
-    display: none;
-  }
-
-
-  .section1description{
-    font-size: 20px;
-    left: 100px;
-    top: 75px;
+h3{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 2%;
     color: #59DAF6;
-   }
+    font-size: 12px; 
+}
 
-
-
-  .section2{
-    width: 100%;
-    overflow: hidden;
-
-  }
-
-  
-  .third{
-    max-width: 250%;
-    position: relative;
-    right: 225px;
-    top: 0px;
-    background: #fff;
-    opacity: 25%;
-    overflow: hidden;
-    padding: 0 0;
-  }
-
-  .section2description{
-    position: absolute;
-    max-width: 2500%;
-    font-size: 20px;
-    left: 250px;
-    color: #59DAF6;
-    padding: 0 0;
-   }
-
-
-  .section3{
-    display: none;
-  }
-
-  .slidecontainer{
-    display: none;
-  }
-
-  .section4{
-    display: none;
-  }
-
-  .bottompage{
-    display: none;
-  }
-
-  .team{
-    display: none;
-  }
-
-  .bottomlinks{
-    display: none;
-  }
-} 
+}
