@@ -4,6 +4,7 @@
     margin: 0;
     justify-content: center;
     background-color: black;
+    font-family: 'Space Mono', monospace;
 }
 
 /* Nav */
@@ -161,21 +162,23 @@ nav ul li a:hover{
 /* sections imgs */
 .section1{
     display: flex;
+    margin-top: 10%;
 }
 
 .section2temp{
     display: flex;
+    margin-top: 10%;
 }
 
 .section3{
     position: relative;
     display: flex;
-    
+    margin-top: 10%;
 }
 
 .section4{
     display: flex;
-    
+    margin-top: 10%;
 }
 
 .flex-child {
@@ -200,9 +203,9 @@ nav ul li a:hover{
 
 .sectionTitle{
     
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
+    margin-left: 45%;
+    margin-right: 10%;
+    margin-top: 7%;
     font-size: large;
     font-size: 32px;
     color: whitesmoke;
@@ -214,9 +217,33 @@ nav ul li a:hover{
 
 .sectionBaseText{
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 10%;
+    margin-top: 8%;
+    text-size-adjust: 20px;
+    color: white;
+    
+}
+
+.sectionTitleR{
+    
+    margin-left: 15%;
+    margin-right: 35%;
+    margin-top: 7%;
+    font-size: large;
+    font-size: 32px;
+    color: whitesmoke;
+    background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.sectionBaseTextR{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 35%;
+    margin-top: 8%;
     text-size-adjust: 20px;
     color: white;
     
