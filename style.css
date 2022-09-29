@@ -253,7 +253,14 @@ nav ul li a:hover{
 
 */
 
-
+.moss{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: -10%;
+    max-width:50%;
+    height:auto;
+}
 
 /* Newsletter */
 
@@ -275,7 +282,7 @@ nav ul li a:hover{
     display: flex;
     margin-left: 25%;
     margin-right: 20%;
-    margin-top: 2%;
+    margin-top: 0%;
     max-width:50%;
     height:auto;
    
@@ -291,17 +298,23 @@ nav ul li a:hover{
 
 
 .bottomimg{
-    margin-left: 24%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 0%;
     margin-top: 2%;
     width: 100%;
     display: flex;
+   
     
+}
+
+.bottomimg img{
+    max-width: 100px;
+    height: 100px;
 }
 
 h3{
     display: flex;
-    margin-left: 44%;
+    margin-left: 43%;
     margin-right: 25%;
     margin-top: 2%;
     color: #59DAF6;
