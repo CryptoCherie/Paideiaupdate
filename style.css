@@ -88,8 +88,10 @@ ul li a{
 }
 
 .menu-icon{
-   display: none;
-   /* border: 1px solid rebeccapurple;*/
+    width: 25px;
+    cursor: pointer; 
+    display: none;
+       
 }
 
 .navItem{
@@ -463,6 +465,8 @@ h3{
        letter-spacing: 2px;
          
    }
+
+   
    .learnmore2{
     display: flex;
    }
@@ -471,10 +475,23 @@ h3{
     color: white;
     font-size: 26px;
     display: flex;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 30%;
+    margin-right: 15%;
     margin-top: 2%;
+    text-align: center;
    }
+
+   .sentence{
+    color: white;
+    font-size: 26px;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    text-align: center;
+   }
+
+
 
 @media only screen and (max-device-width: 800px) {
 
@@ -487,42 +504,44 @@ h3{
     background-color: transparent;
     }
 
-  
-    nav ul{
+    nav{
+        background-color: transparent;
+    }
+    
+    .navbarContainer{
+        background-color: transparent;
+      
+    }
+    
+    
+    .nav-links{
         width: 100%;
-        background: black;
+        background: linear-gradient(#c1a1e6, #64107e);
         position: absolute;
-        top: 100px;
+        top: 85px;
         right: 0;
         z-index: 2;
-        overflow: hidden;
     }
 
-    nav ul li{
-        display: inline-block;
+    .nav-links ul li{
+        display: block;
         margin-top: 10px;
         margin-bottom: 10px;
-        overflow: hidden;
     }
 
-    nav ul li a{
+    .nav-links ul li a{
         color: #fff;
-        padding: 0 0px;
-        font-size: 16px;
-        overflow: hidden;
     }
+
 
 
     .menu-icon{
-        position: relative;
         width: auto;
-        display: flex;
-        overflow: hidden;
+        display: block;
         margin-left: 85%;
         
     }
     #menuList{
-        display: flex;
         overflow: hidden;
         transition: 0.7s;
     }
