@@ -16,11 +16,11 @@ nav{
     width: auto;
     max-height: fit-content;
     background-color: transparent;
-   /* border: 1px solid purple; */
+  
     display: flex;
 }
 
-/* https://freshman.tech/flexbox-navbar/ */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -78,9 +78,8 @@ ul li a{
     flex: 0.3;
     width: 100px;
     margin: 10px;
-    /* justify-content: right; */
     background-color: transparent;
-    /* border: 1px solid grey; */
+   
 }
 
 .menu{
@@ -103,8 +102,7 @@ nav ul li{
     list-style: none;
     margin-inline: 2px;
    
-    /* float: right; */
-    /* padding-right: 5%; */
+  
 }
 
 nav ul li a{
@@ -113,7 +111,7 @@ nav ul li a{
     color: white;
     font-weight: 100;
     font-size: 22px;
-    /* border: 1px solid rebeccapurple;*/
+    
 
 }
 
