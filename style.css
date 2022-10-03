@@ -343,6 +343,12 @@ h3{
 
 /* Team Members */
 
+.spacebetween{
+    border: 100px solid #59DAF6;
+}
+
+
+
 .team{
     opacity: 0.99; 
     display: flex;
@@ -360,7 +366,7 @@ h3{
        transition: 0.5s;
        float: left;
        left: 375px;
-       border: 1px solid rebeccapurple;
+      
        
        
    }
@@ -466,20 +472,6 @@ h3{
          
    }
 
-   
-   .learnmore2{
-    display: flex;
-   }
-
-   .learnmore{
-    color: white;
-    font-size: 26px;
-    display: flex;
-    margin-left: 30%;
-    margin-right: 15%;
-    margin-top: 2%;
-    text-align: center;
-   }
 
    .sentence{
     color: white;
@@ -490,6 +482,7 @@ h3{
     margin-top: 2%;
     text-align: center;
    }
+
 
 
 

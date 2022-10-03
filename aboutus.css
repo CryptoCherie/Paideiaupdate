@@ -5,6 +5,7 @@
     background-color: black;
 }
 
+
 /* Nav */
 nav{
     background-color: transparent;
@@ -123,6 +124,11 @@ nav ul li a:hover{
 .first{
     max-width:100%;
     height:auto;
+}
+
+.spacer{
+    background-color: white;
+    border: 50px solid grey; 
 }
 
 /* Team Members */
