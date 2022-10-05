@@ -29,14 +29,11 @@ nav{
     align-items: center;
 }
 
-.nav-links {
-display: flex;
-
-}
 
 ul li{
     display: inline-block;
     list-style: none;
+   
 }
 
 ul li a{
@@ -44,6 +41,7 @@ ul li a{
     color: black;
     font-size: 26px;
     margin: 0 40px;
+    
     
 }
 
@@ -53,6 +51,7 @@ ul li a{
     flex: 0.2;
     background-color: transparent;
     min-width: 15%;
+   
   
 }
 
@@ -71,17 +70,9 @@ ul li a{
 {
     flex: 0.27;
     background-color: transparent;
-    
+   
 }
 
-.menuContainer{
-    flex: 0.3;
-    width: 100px;
-    margin: 10px;
-    /* justify-content: right; */
-    background-color: transparent;
-    /* border: 1px solid grey; */
-}
 
 .menu{
     background-color: transparent;
@@ -91,34 +82,23 @@ ul li a{
     width: 25px;
     cursor: pointer; 
     display: none;
-       
+      
 }
 
-.navItem{
-    background-color: transparent;
+.nav li{
+    width: 125px;
 }
 
-nav ul li{
-    display: block;
-    list-style: none;
-    margin-inline: 2px;
-   
-    /* float: right; */
-    /* padding-right: 5%; */
-}
-
-nav ul li a{
+ul li a{
     display: flex;
     text-decoration: none;
-    color: white;
-    font-weight: 100;
+    color: black;
     font-size: 22px;
-    /* border: 1px solid rebeccapurple;*/
-
+ 
 }
 
-nav ul li a:hover{
-    color: #59DAF6;
+ul li a:hover{
+    color: white;
 }
 
 
@@ -137,6 +117,20 @@ nav ul li a:hover{
 .notion{
     padding: 0 15px;
     background-color: transparent;
+   
+}
+
+.connect{
+   background-color: #696969; 
+   border: none;
+   border-radius: 15%;
+   color: #59DAF6;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: flex;
+   font-size: 16px;
+  
    
 }
 
@@ -346,133 +340,6 @@ h3{
 .spacebetween{
     border: 100px solid #59DAF6;
 }
-
-
-
-.team{
-    opacity: 0.99; 
-    display: flex;
-    
-   }
-   
-   .box{
-       position: relative;
-       width: 300px;
-       height: 300px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin: 40px;
-       transition: 0.5s;
-       float: left;
-       left: 375px;
-      
-       
-       
-   }
-   
-   .box:hover{
-    height: 400px;
-    
-   }
-   
-   .box .imgbox{
-       position: absolute;
-       top: 0;
-       left: 0;
-       width: 100%;
-       height: 100%;
-       padding: 10px;
-       box-sizing: border-box;
-       
-   }
-   
-   .box .imgbox img{
-       max-width: 100%;
-       opacity: 0.1;
-       transition: 0.5s;
-       
-   }
-   
-   .box:hover .imgbox img{
-       opacity: 1;
-      
-   }
-   
-   .box:before{
-       content: '';
-       position: absolute;
-       top: -2px;
-       left: -2px;
-       right: -2px;
-       bottom: -2px;
-       background-color: #fff;
-       z-index: -1;
-      
-   }
-   
-   .box:after{
-       content: '';
-       position: absolute;
-       top: -2px;
-       left: -2px;
-       right: -2px;
-       bottom: -2px;
-       background-color: #fff;
-       z-index: -2;
-       filter: blur(40px);
-       
-   }
-   
-   .box:before,
-   .box:after
-   {
-       background: linear-gradient(235deg,#004750,#010615,#00bcd4);
-       
-   
-   }
-   
-   .box .content{
-       position: absolute;
-       bottom: 0;
-       left: 10px;
-       right: 10px;
-       bottom: 10px;
-       height: 90px;
-       background: rgba(0,0,0,0.4);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       opacity: 0;
-       transition: 0.5s; 
-       
-   }
-   
-   .box:hover .content
-   {
-       opacity: 1;
-       
-   }
-   
-   .box .content h2{
-       font-size: 20px;
-       color: #fff;
-       font-weight: 500;
-       line-height: 20px;
-       letter-spacing: 1px;
-      
-   }
-   
-   .box .content h2 span{
-       font-size: 14px;
-       color: #fff;
-       font-weight: 200;
-       letter-spacing: 2px;
-         
-   }
-
-
    .sentence{
     color: white;
     font-size: 26px;
@@ -485,8 +352,32 @@ h3{
 
 
 
+.team{
+    display: flex;
+    opacity: 99%;
+}
 
-@media only screen and (max-device-width: 800px) {
+.imgbox{
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 2%;
+    left: 200px;
+
+}
+
+.content{
+    display: none;
+}
+
+
+
+
+
+   
+
+
+@media only screen and (max-device-width: 1023px) {
 
     .logo{
     margin-left: 2%;
@@ -497,48 +388,44 @@ h3{
     background-color: transparent;
     }
 
-    nav{
-        background-color: transparent;
-    }
-    
-    .navbarContainer{
-        background-color: transparent;
-      
-    }
-    
-    
-    .nav-links{
-        width: 100%;
-        background: linear-gradient(#c1a1e6, #64107e);
-        position: absolute;
-        top: 85px;
-        right: 0;
-        z-index: 2;
+    .nav{
+        margin-right: 5%;
     }
 
-    .nav-links ul li{
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .nav-links ul li a{
-        color: #fff;
-    }
-
-
-
-    .menu-icon{
-        width: auto;
-        display: block;
-        margin-left: 85%;
+    .nav li{
+        width: 50px;
+        
         
     }
-    #menuList{
-        overflow: hidden;
-        transition: 0.7s;
-    }
     
+    ul li a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+     
+    }
+
+   .connect{
+   background-color: #696969; 
+   border: none;
+   border-radius: 15%;
+   color: #59DAF6;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   display: flex;
+   font-size: 12px;
+  
+   
+}
+    
+    .menu-icon{
+       
+       display: none;
+        
+    }
+ 
  .sectionTitle{
     font-size: 18px;
     margin-top: 30%;
@@ -605,11 +492,149 @@ h3{
 
 h3{
     display: flex;
-    margin-left: 25%;
-    margin-right: 20%;
+    margin-left: 40%;
+    margin-right: 0%;
     margin-top: 2%;
     color: #59DAF6;
     font-size: 12px; 
 }
 
+
 }
+
+
+
+
+
+
+@media only screen and (max-device-width: 600px){
+    .logo{
+        margin-left: 2%;
+        margin-top: -30%;
+        max-width:100%;
+        height:auto;
+        max-height: fit-content;
+        background-color: transparent;
+        }
+    
+        .nav{
+            margin-right: 5%;
+        }
+    
+        .nav li{
+            width: 50px;
+            
+            
+        }
+        
+        ul li a{
+            display: flex;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+         
+        }
+    
+       .connect{
+       display: flex;
+       padding: 8px 16px;
+        
+
+    }
+    
+    
+        .menu-icon{
+           
+            display: inline-block;
+      
+        }
+        #menuList{
+            overflow: hidden;
+            transition: 0.5s;
+            display: flex;
+            background-color: white;
+            opacity: 50%;
+            flex-direction: column-reverse;
+          
+           
+        }
+        
+     .sectionTitle{
+        font-size: 18px;
+        margin-top: 30%;
+        margin-right: 0%;
+        margin-left: 5%;
+    }
+    
+    
+     
+    .sectionBaseText{
+       font-size: 12px;
+       position: absolute;
+    }
+    
+    .sectionRVideo{
+        float: none;
+        max-width:75%;
+        height:auto;
+        position: relative;
+        left: 50px;
+    }
+    
+    .sectionLVideo{
+        float: none;
+        max-width:75%;
+        height:auto;
+        position: relative;
+        left: 50px;
+     }
+    
+    
+     .section1{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .section2temp{
+        display: flex;
+        margin-top: -20%;
+        flex-direction: column;
+    }
+    
+    .section3{
+        display: flex;
+        margin-top: -20%;
+        flex-direction: column;
+    }
+    
+    .section4{
+        display: flex;
+        margin-top: -20%;
+        flex-direction: column;
+
+    }
+    
+    .moss{
+        display: flex;
+        margin-top: -30%;
+    }
+    
+    .Paragraph{
+        display: flex;
+        font-size: 12px;
+    }
+    
+    .bottomimg img{
+        display: none;
+    }
+    
+    h3{
+        display: flex;
+        margin-left: 25%;
+        margin-right: 20%;
+        margin-top: 2%;
+        color: #59DAF6;
+        font-size: 12px; 
+    }
+    
