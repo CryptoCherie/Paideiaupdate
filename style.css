@@ -361,7 +361,15 @@ h3{
     display: flex;
     flex-direction: column;
     margin-left: 20%;
-    
+   background-image: linear-gradient(#102d33, #59DAF6);
+   border: none;
+   border-radius: 45%;
+   opacity: 85%;
+   
+}
+
+.imgbox:hover{
+    opacity: 1090%;
 }
 
 .content{
