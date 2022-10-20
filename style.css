@@ -312,15 +312,15 @@ ul li a:hover{
     display: flex;
 }
 
-h3{
-    display: flex;
+.support{
+    display: inline-block;
     margin-left: 43%;
     margin-right: 25%;
     margin-top: 2%;
-    color: #59DAF6;
+    color: white;
     font-size: 16px;
-    
 }
+
 
 
 

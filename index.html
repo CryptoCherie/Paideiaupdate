@@ -33,12 +33,13 @@
           <li><a href="C:\Users\Autumn Sexy Wifey\Desktop\Learnin codin (yee haw)\Paideia\index.html">Home</a></li>
           <li><a href="C:\Users\Autumn Sexy Wifey\Desktop\Learnin codin (yee haw)\Paideia\demo.html">Demo</a></li>
           <li><a href="C:\Users\Autumn Sexy Wifey\Desktop\Learnin codin (yee haw)\Paideia\aboutus.html">About</a></li>
-          <li><a href="C:\Users\Autumn Sexy Wifey\Desktop\Learnin codin (yee haw)\Paideia\Mint.html">Mint</a></li>
+          <li><a href="https://opensea.io">Mint</a></li>
         </ul>
         
 
         <ul>
           <li><a href="#" class="connect">Connect</a></li>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
         </ul>
         
         <!-- 
@@ -227,13 +228,16 @@ clickable: true,
 </div>
 
 <div class="support">
-  <h3>Support | Media | Contact</h3>
+
+<h3><a href= "mailto:paideiagame@gmail.com">Contact</a> | 
+<a href="https://youtube.com/playlist?list=PLAbGVBnCUNYf0mu6o3eMR4zcFHXw7en46">Media</a> |
+<a href="https://discord.com/channels/1031956925954412607/1031975352479789087">Support</h3>
 </div>
 
 
 <!-- JAVA --> 
 <script>
-
+/* Mobile Drop down menu list */
   var menuList = document.getElementById("menuList");
   
   menuList.style.maxHeight = "0px"
@@ -250,6 +254,23 @@ clickable: true,
   }
 
  </script>
+
+
+<script>
+/* To connect using MetaMask */
+async function connect() {
+ if (window.ethereum) {
+ 
+  await window.ethereum.request({ method: "eth_requestAccounts" });
+  window.web3 = new Web3(window.ethereum);
+  
+ } else {
+  console.log("No wallet");
+ }
+}
+</script>
+
+<input type="button" value="Connect Wallet" onclick="connect();">
 
 </body>
 </html>
