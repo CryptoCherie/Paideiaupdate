@@ -38,8 +38,30 @@
         
 
         <ul>
-          <li><a href="#" class="connect">Connect</a></li>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
+          <li>
+            <button id="connect-button">Connect</button>
+          <script>
+         
+      document.getElementById('connect-button').addEventListener('click', event => {
+        let account;
+        let button = event.target;
+        ethereum.request({method: 'eth_requestAccounts'}).then(accounts => {
+          account = accounts[0];
+          console.log(account);
+          button.textContent = account;
+
+          ethereum.request({method: 'eth_getBalance' , params: [account, 'latest']}).then(result => {
+            console.log(result);
+            let wei = parseInt(result,16);
+            let balance = wei / (10**18);
+            console.log(balance + " ETH");
+          });
+        });
+      });
+    
+          </script>
+          </li>
+
         </ul>
         
         <!-- 
@@ -256,21 +278,8 @@ clickable: true,
  </script>
 
 
-<script>
-/* To connect using MetaMask */
-async function connect() {
- if (window.ethereum) {
- 
-  await window.ethereum.request({ method: "eth_requestAccounts" });
-  window.web3 = new Web3(window.ethereum);
-  
- } else {
-  console.log("No wallet");
- }
-}
-</script>
 
-<input type="button" value="Connect Wallet" onclick="connect();">
+
 
 </body>
 </html>

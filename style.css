@@ -120,19 +120,17 @@ ul li a:hover{
    
 }
 
-.connect{
-   background-color: #696969; 
-   border: none;
-   border-radius: 15%;
-   color: #59DAF6;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: flex;
-   font-size: 16px;
-  
-   
-}
+button {
+    border: solid 2px #444;
+    font-size:16px;
+    padding: 10px 25px 10px 25px;
+    background: gray;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
 
 /* main page */
 .heroImage{
