@@ -327,6 +327,8 @@ button {
     display: inline-flex;
 }
 
+
+
 .imgbox{
     display: flex;
     flex-direction: column;
@@ -336,6 +338,7 @@ button {
    border-radius: 45%;
    opacity: 85%;
    
+   
 }
 
 .imgbox:hover{
@@ -343,6 +346,9 @@ button {
     
 }
 
+.content{
+
+}
 
 .content h2{
     display: flex;
