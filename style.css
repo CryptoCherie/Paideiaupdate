@@ -252,35 +252,27 @@ button {
 
 */
 
-.moss{
+.space{
     display: flex;
-    margin-left: 25%;
-    margin-right: 20%;
-    margin-top: -10%;
-    max-width:50%;
+   padding: 35px 15px 35px 15px;
+    max-width:100%;
     height:auto;
 }
 
 /* Newsletter */
 
-.DAO{
-    display: flex;
-}
+
 
 .Paragraph{
     color: #59DAF6;
-    font-size: 24px;
-    margin-left: 18%;
-    margin-right: 15%;
-    margin-top: 8%;
+    font-size: 20px;
+    text-align: center;
 }
 
 .bottomlogo{
     display: flex;
-    margin-left: 25%;
-    margin-right: 20%;
-    margin-top: 0%;
-    max-width:50%;
+    margin-left: 33%;
+    max-width:35%;
     height:auto;
    
 }
@@ -288,35 +280,15 @@ button {
 
 
 
-.bottomlinks{
-    display: flex;
-    
-}
-
-
-.bottomimg{
-    margin-left: 22%;
-    margin-right: 0%;
-    margin-top: 2%;
-    width: 100%;
-    display: flex;
-   
-    
-}
-
-.bottomimg img{
-    max-width: 100px;
-    height: 100px;
-    display: flex;
-}
 
 .support{
-    display: inline-block;
-    margin-left: 43%;
-    margin-right: 25%;
-    margin-top: 2%;
+    text-align: center;
     color: white;
     font-size: 16px;
+}
+
+.support a{
+    color: white;
 }
 
 
@@ -498,28 +470,10 @@ button {
     margin-top: -20%;
 }
 
-.moss{
-    display: flex;
-    margin-top: -30%;
-}
-
-.Paragraph{
-    display: flex;
-    font-size: 12px;
-}
-
 .bottomimg img{
     display: none;
 }
 
-h3{
-    display: flex;
-    margin-left: 40%;
-    margin-right: 0%;
-    margin-top: 2%;
-    color: #59DAF6;
-    font-size: 12px; 
-}
 
 
 }
@@ -650,32 +604,11 @@ h3{
 
     }
     
-    .moss{
-        display: flex;
-        margin-top: -30%;
-    }
-    
-    .Paragraph{
-        display: flex;
+    .DAO p{
         font-size: 12px;
     }
-    
-    .bottomimg img{
-        display: none;
-    }
-    
-    h3{
-        display: flex;
-        margin-left: 25%;
-        margin-right: 20%;
-        margin-top: 2%;
-        color: #59DAF6;
-        font-size: 12px; 
-    }
- 
-    .team{
-        display: none;
-    }
 
-    
+    .support a{
+        font-size: 12px;
+    }
 }
