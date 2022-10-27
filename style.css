@@ -363,7 +363,7 @@ button {
 
 
 
-   
+/* TABLET */   
 
 
 @media only screen and (max-device-width: 1023px) {
@@ -468,7 +468,7 @@ button{
 
 
 
-
+/* MOBILE */
 
 @media only screen and (max-device-width: 600px){
     .logo{
@@ -523,9 +523,8 @@ button{
         
 
     .sectionTitle{
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: 0%;
+        padding: 0;
+        margin: 0%;
         font-size: 16px;
         border: 1px solid yellow;
     }
@@ -542,6 +541,7 @@ button{
         max-width:100%;
         height:auto;
         border: 1px solid yellow;
+        margin: 0%;
     }
     
     .sectionLVideo{
@@ -559,9 +559,9 @@ button{
     
      .section1{
          display: flex;
-        margin-top: -20%;
+      
         flex-direction: column;
-        padding: 0px 15px;
+      
         border: 1px solid yellow;
     }
     
