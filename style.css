@@ -176,7 +176,7 @@ button {
 
 .flex-child {
     flex: 1;
- 
+    border: 1px solid yellow;
 }
 
 
@@ -184,6 +184,7 @@ button {
     float: left;
     max-width:100%;
     height:auto;
+    border: 1px solid yellow;
 }
 
 .sectionLVideo{
@@ -205,7 +206,7 @@ button {
     background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+    border: 1px solid yellow;
 }
 
 .sectionBaseText{
@@ -215,13 +216,13 @@ button {
     margin-top: 2%;
     text-size-adjust: 20px;
     color: white;
-    
+    border: 1px solid yellow;
 }
 
 
 
 
-/* Img Slider
+/* Img Slider 
 
 .slidecontainer{
     display: flex;
@@ -232,33 +233,21 @@ button {
 
 .swiper{
     position: absolute;
-    display: flex;
-    top: -250px;
-    margin: 30px 0;
     width: 275px;
+    bottom: 300px;
     border: 1px solid yellow;
 
 }
 
 .swiper-slide img{
     display: flex;
-    margin: 30px 0;
     max-width:100%;
-    height:auto;
     max-height: fit-content;
     background-color: transparent;
-    border: 1px solid grey;
+    border: 1px solid yellow;
 }
 
 */
-
-.space{
-    display: flex;
-   padding: 35px 15px 35px 15px;
-    max-width:100%;
-    height:auto;
-}
-
 /* Newsletter */
 
 
@@ -406,18 +395,10 @@ button {
      
     }
 
-   .connect{
-   background-color: #696969; 
-   border: none;
-   border-radius: 15%;
-   color: #59DAF6;
-   padding: 8px 16px;
-   text-align: center;
-   text-decoration: none;
-   display: flex;
-   font-size: 12px;
-  
-   
+
+
+button{
+   display: flex; 
 }
     
     .menu-icon{
@@ -517,12 +498,11 @@ button {
          
         }
     
-       .connect{
-       display: flex;
-       padding: 8px 16px;
-        
+        button{
+            
+        }
+    
 
-    }
     
     
         .menu-icon{
