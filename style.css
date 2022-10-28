@@ -471,6 +471,7 @@ button{
 /* MOBILE */
 
 @media only screen and (max-device-width: 600px){
+    
     .logo{
         margin-left: 2%;
         margin-top: -30%;
@@ -622,7 +623,7 @@ button{
     }
 
     .section4 .sectionTitle{
-        margin-top: -121%;
+        margin-top: -120%;
     }
 
     .section4 .sectionBaseText{
