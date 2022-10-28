@@ -184,7 +184,7 @@ button {
     float: left;
     max-width:100%;
     height:auto;
-    border: 1px solid yellow;
+    
 }
 
 .sectionLVideo{
@@ -499,7 +499,7 @@ button{
         }
     
         button{
-            
+          display: none;  
         }
     
 
@@ -521,74 +521,120 @@ button{
            
         }
         
-
-    .sectionTitle{
-        padding: 0;
-        margin: 0%;
-        font-size: 16px;
-        border: 1px solid yellow;
-    }
      
-    .sectionBaseText{
-       font-size: 12px;
-       border: 1px solid yellow;
-      margin: 0%;
-    }
-    
 
-    .sectionRVideo{
-        float: none;
-        max-width:100%;
-        height:auto;
-        border: 1px solid yellow;
-        margin: 0%;
-    }
+
     
-    .sectionLVideo{
-        float: none;
-        max-width:100%;
-        height:auto;
-        margin-top: 80%;
+        .section1 .flex-child{
         border: 1px solid yellow;
+        
      }
-    
-     .flex-child{
-        flex-direction: column;
-        border: 1px solid yellow;
-     }
+     
     
      .section1{
-         display: flex;
-      
+         
         flex-direction: column;
-      
         border: 1px solid yellow;
+        margin-top: -10%;
     }
-    
-    .section2temp{
-        display: flex;
 
-        flex-direction: column;
-        padding: 0px 15px;
-        border: 1px solid yellow;
+    .section1 .sectionTitle{
+        margin-top: 15%;
     }
-    
-    .section3{
-        display: flex;
-        margin-top: -20%;
-        flex-direction: column;
-        padding: 0px 15px;
-        border: 1px solid yellow;
-    }
-    
-    .section4{
-        display: flex;
-        margin-top: -20%;
-        flex-direction: column;
-         padding: 0px 15px;
-        border: 1px solid yellow;
 
+    .section1 .sectionBaseText{
+        margin: 0%;
     }
+
+    .section1 .sectionRVideo{
+        float: none;
+        margin-top: 0%;
+        
+    }
+
+    
+    .section2temp .flex-child{
+        border: 1px solid yellow;
+        
+     }
+     
+    
+     .section2temp{
+         
+        flex-direction: column;
+        border: 1px solid yellow;
+        margin-top: -10%;
+    }
+
+    .section2temp .sectionTitle{
+        margin-top: -105%;
+    }
+
+    .section2temp .sectionBaseText{
+        margin: 0%;
+    }
+
+    .section2temp .sectionLVideo{
+       float: none;
+       margin-top: 45%;
+    }
+
+
+    .section1 .flex-child{
+        border: 1px solid yellow;
+        
+     }
+     
+    
+     .section3{
+         
+        flex-direction: column;
+        border: 1px solid yellow;
+        margin-top: -10%;
+    }
+
+    .section3 .sectionTitle{
+        margin-top: 15%;
+    }
+
+    .section3 .sectionBaseText{
+        margin: 0%;
+    }
+
+    .section3 .sectionRVideo{
+        margin-top: 0%;
+        float: none;  
+    }
+
+    
+
+    .section4 .flex-child{
+        border: 1px solid yellow;
+        
+     }
+     
+    
+     .section4{
+         
+        flex-direction: column;
+        border: 1px solid yellow;
+        margin-top: -10%;
+    }
+
+    .section4 .sectionTitle{
+        margin-top: -121%;
+    }
+
+    .section4 .sectionBaseText{
+        margin: 0%;
+    }
+
+    .section4 .sectionLVideo{
+        margin-bottom:15%;
+       float: none;
+        
+    }
+
     
     .DAO p{
         font-size: 12px;
