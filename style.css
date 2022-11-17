@@ -1,11 +1,18 @@
+@font-face {
+    font-family: 'Cinzel';
+    src: url(font/cinzel-variablefont_wght-demo.html);
+   }
+
+
 /* Body */
 .body{
     padding: 0;
     margin: 0;
     justify-content: center;
     background-color: black;
-    font-family: 'Space Mono', monospace;
+    font-family: Cinzel;
 }
+
 
 /* Nav */
 nav{
@@ -56,14 +63,8 @@ ul li a{
 }
 
 .logo{
-    margin-left: 2%;
-    margin-top: -30%;
-    max-width:100%;
-    height:auto;
-    max-height: fit-content;
-    background-color: transparent;
-    
-
+margin-top:  0%;
+margin-left: 180%;
 }
 
 .navbarSpacer
@@ -101,6 +102,11 @@ ul li a:hover{
     color: white;
 }
 
+#connect-button{
+    width: 75%;
+    height: 75%;
+    margin-left: 180%;
+}
 
 /* Nav Socials */
 
@@ -120,17 +126,7 @@ ul li a:hover{
    
 }
 
-button {
-    border: solid 2px #444;
-    font-size:16px;
-    padding: 10px 25px 10px 25px;
-    background: gray;
-    font-weight: bold;
-    color: #fff;
-    box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
-    cursor: pointer;
-    transition: all 0.4s ease;
-  }
+
 
 /* main page */
 .heroImage{
@@ -176,7 +172,7 @@ button {
 
 .flex-child {
     flex: 1;
-    border: 1px solid yellow;
+      /* border: 1px solid yellow; */
 }
 
 
@@ -206,7 +202,7 @@ button {
     background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid yellow;
+     /* border: 1px solid yellow; */
 }
 
 .sectionBaseText{
@@ -216,10 +212,30 @@ button {
     margin-top: 2%;
     text-size-adjust: 20px;
     color: white;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
+.deco1{
+    margin-left: 25%;
+    width: 500px;
+    height: 35px;
+    margin-top: 5%;
+}
 
+.deco2{
+width: 500px;
+height: 75px;
+margin-left: 25%;
+margin-top: 5%;
+
+}
+
+.deco3{
+    width: 500px;
+    height: 75px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
 
 
 /* Img Slider 
@@ -248,6 +264,17 @@ button {
 }
 
 */
+
+
+.decobottom{
+    width: 75%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
 /* Newsletter */
 
 
@@ -298,6 +325,7 @@ button {
 
 .spacebetween{
     border: 100px solid #59DAF6;
+    
 }
    .sentence{
     color: white;
@@ -307,13 +335,15 @@ button {
     margin-right: 15%;
     margin-top: 2%;
     text-align: center;
- 
+
    }
 
 
 
 .team{
     display: inline-flex;
+  
+   
 }
 
 
@@ -321,12 +351,12 @@ button {
 .imgbox{
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+   margin-left: 20%;
+   margin-top: 5%;
    background-image: linear-gradient(#102d33, #59DAF6);
    border: none;
-   border-radius: 45%;
-   opacity: 85%;
-   
+   border-radius: 15%;
+   opacity: 85%; 
    
 }
 
@@ -336,29 +366,13 @@ button {
 }
 
 .content{
-
-}
-
-.content h2{
-    display: flex;
-    flex-direction: column;
-    margin-left: -16%;
-    margin-right: 5%;
-    margin-top: 20%;
-    position: absolute;
     color: white;
-    
+    font-size: 14px;
+    margin-left: 10%;  
 }
 
-.content p{
-    display: flex;
-    flex-direction: column;
-    margin-left: -12%;
-    margin-right: 5%;
-    margin-top: 22%;
-    position: absolute;
-    color: white; 
-}
+
+
 
 
 
@@ -461,6 +475,54 @@ button{
     display: none;
 }
 
+/* about us*/
+
+.team{
+    flex-direction: column;
+    margin-left: 15%;
+    align-items: center;
+    border: 1px solid yellow;
+    
+}
+
+.imgbox{
+    display: flex;
+    flex-direction: none;
+    margin-left: 0%;
+    margin-top: 25%;
+    border: 1px solid yellow;
+    
+  
+}
+
+.content{
+    margin: 0%;
+    flex-direction: column; 
+    border: 1px solid yellow;
+}
+
+.content h2{
+    
+    flex-direction: none;
+    margin-left: 0%;
+    margin-right: 25%;
+    margin-top: 2%;
+    position: none;
+    color: white;
+    border: 1px solid yellow;
+    
+}
+
+.content p{
+   
+    flex-direction: none;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+    position: none;
+    color: white; 
+    border: 1px solid yellow;
+}
 
 
 }
