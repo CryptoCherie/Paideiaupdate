@@ -303,6 +303,7 @@ h1{
 .btnR:hover{
     width: 160px;
     opacity: 100%;
+    color: #59DAF6;
 }
 
 button a{
@@ -311,6 +312,9 @@ button a{
     text-decoration: none;
 }
 
+.modal-body{
+    background: linear-gradient(to right, #303131, #777979);   
+}
 
 /* Img Slider 
 
