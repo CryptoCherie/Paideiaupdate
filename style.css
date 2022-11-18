@@ -285,6 +285,33 @@ h1{
 }
 
 
+.btnR{
+    width: 150px;
+    border: 0;
+    padding: 20px 25px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #303131, #777979);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+    opacity: 75%;
+    margin-top: 8%;
+    margin-left: 35%;
+}
+
+.btnR:hover{
+    width: 160px;
+    opacity: 100%;
+}
+
+button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
 /* Img Slider 
 
 .slidecontainer{
