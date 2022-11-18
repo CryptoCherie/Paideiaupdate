@@ -17,6 +17,7 @@
 /* Nav */
 nav{
     background-color: transparent;
+    
 }
 
 .navbarContainer{
@@ -25,8 +26,9 @@ nav{
     width: auto;
     max-height: fit-content;
     background-color: transparent;
-   /* border: 1px solid purple; */
+   border: 1px solid purple;
     display: flex;
+    
 }
 
 /* https://freshman.tech/flexbox-navbar/ */
@@ -34,12 +36,16 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid purple;
+ 
 }
 
 
 ul li{
     display: inline-block;
     list-style: none;
+
+    
    
 }
 
@@ -52,31 +58,18 @@ ul li a{
     
 }
 
-.logoContainer
-{
-    display: flex;
-    flex: 0.2;
-    background-color: transparent;
-    min-width: 15%;
-   
-  
-}
-
 .logo{
-margin-top:  0%;
-margin-left: 180%;
+  
+border: 1px solid yellow;
+
 }
 
-.navbarSpacer
-{
-    flex: 0.27;
-    background-color: transparent;
-   
-}
+
 
 
 .menu{
     background-color: transparent;
+    
 }
 
 .menu-icon{
@@ -105,7 +98,7 @@ ul li a:hover{
 #connect-button{
     width: 75%;
     height: 75%;
-    margin-left: 180%;
+    margin-left: 50%;
 }
 
 /* Nav Socials */
@@ -190,10 +183,13 @@ ul li a:hover{
 }
 
 /* sections texts */
-
+h1{
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
 .sectionTitle{
     
-    margin-left: 20%;
+    margin-left: 18%;
     margin-right: 20%;
     margin-top: 0%;
     font-size: large;
@@ -202,8 +198,59 @@ ul li a:hover{
     background: -webkit-linear-gradient( rgb(89, 218, 246), rgb(59, 118, 196));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
      /* border: 1px solid yellow; */
 }
+
+
 
 .sectionBaseText{
     display: flex;
@@ -216,25 +263,25 @@ ul li a:hover{
 }
 
 .deco1{
-    margin-left: 25%;
-    width: 500px;
-    height: 35px;
-    margin-top: 5%;
+    max-width:90%;
+    height:auto;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 .deco2{
-width: 500px;
-height: 75px;
-margin-left: 25%;
-margin-top: 5%;
+    max-width:90%;
+    height:auto;
+     margin-left: 5%;
+    margin-top: 3%;
 
 }
 
 .deco3{
-    width: 500px;
-    height: 75px;
-    margin-left: 25%;
-    margin-top: 5%;
+    max-width:100%;
+    height:auto;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 
@@ -280,7 +327,7 @@ margin-top: 5%;
 
 
 .Paragraph{
-    color: #59DAF6;
+    color: white;
     font-size: 20px;
     text-align: center;
 }
@@ -299,12 +346,12 @@ margin-top: 5%;
 
 .support{
     text-align: center;
-    color: white;
+    color: #59DAF6;
     font-size: 16px;
 }
 
 .support a{
-    color: white;
+    color: #59DAF6;
 }
 
 
